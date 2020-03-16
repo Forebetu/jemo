@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JemoApplication {
 
 	public static void main(String[] args) {
+		System.out.println("jdemo start...");
 		SpringApplication.run(JemoApplication.class, args);
 	}
 
